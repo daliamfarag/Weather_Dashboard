@@ -12,7 +12,7 @@ It features animations and is fully mobile responsive.
 
 These history items are clickable to quickly search for the cities you like to regularly check on.
 
-Deployed site is viewable <a href=" https://daliamfarag.github.io/Weather_Dashboard/" target="_blank">here</a>.
+Deployed site is viewable <a href="https://daliamfarag.github.io/Weather_Dashboard/" target="_blank"> Here </a>.
 
 
 
