@@ -1,4 +1,4 @@
-// UTILITY / GENERAL
+
 citySearchEl = document.getElementById("city-search");
 
 function searchHandler() {
@@ -26,7 +26,7 @@ function iconToUrl(icon) {
   return `https://openweathermap.org/img/wn/${icon}@4x.png`;
 }
 
-// INTERFACE WITH LOCAL STORAGE
+//Local Storage
 LS = {
   key: "Weather_Dashboard-daliamfarag",
   renderHistory: function () {
@@ -56,7 +56,6 @@ LS = {
   },
 };
 
-// DISPLAY DATA TO PAGE
 function renderUV(uvIndex) {
   let color;
   if (uvIndex < 3) color = "#8DC443";
@@ -99,7 +98,7 @@ function renderPage(data) {
   ).innerText = `Humidity: ${data.current.humidity}%`;
   document.getElementById("current-uv").innerHTML = renderUV(data.current.uvi);
 
-  // five day forecast
+  // forecast for future five days
   document.getElementById("five-day-wrapper").innerHTML = "";
   for (let i = 1; i < 6; i++) renderFiveDayItem(data.daily[i]);
 

@@ -1,16 +1,18 @@
 # Weather Dashboard
 
-This application was built utilizing the <a href="https://openweathermap.org/" target="_blank">Open Weather Map API</a>. 
+This application was built using the server-side API <a href="https://openweathermap.org/" target="_blank">Open Weather Map API</a>. 
 
-Users are able to search for current and upcoming weather conditions by city.
+Users are able to search for multiple cities current and future date weather conditions.
 
-The site was made entirely from scratch, using only one HTML file, one CSS file, and one vanilla Javascript file. 
+The Weather Dashboard website features dyanmically updated HTML and CSS. 
 
-It features animations and is fully mobile responsive. Local storage is utilized to save previous searches to a user's search history. 
+Local storage is integrated to save previous searches to a user's search history. 
+
+It features animations and is fully mobile responsive. 
 
 These history items are clickable to quickly search for the cities you like to regularly check on.
 
-Deployed site is viewable <a href="" target="_blank">here</a>. Enjoy!
+Deployed site is viewable <a href=" https://daliamfarag.github.io/Weather_Dashboard/" target="_blank">here</a>.
 
----
+
 
